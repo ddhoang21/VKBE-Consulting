@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-scroll";
+import Logo from "../../img/logo/vkbe-finallogo-02.png";
 import './style.css';
 
 class NavigationBar extends Component {
@@ -12,15 +13,14 @@ class NavigationBar extends Component {
   render() {
     return (
       <Navbar fixed="top" bg="dark" variant="dark">
-        <Navbar.Brand href="#home">
+        <Navbar.Brand>
           <img
-            alt=""
-            src="/logo.svg"
-            width="30"
+            alt="logo"
+            src={Logo}
+            width="100"
             height="30"
             className="d-inline-block align-top"
           />{' '}
-          React Bootstrap
         </Navbar.Brand>
         <Link
           activeClass="active"
