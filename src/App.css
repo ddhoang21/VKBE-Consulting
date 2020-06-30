@@ -1,14 +1,19 @@
 .main-section {
   height: 100vh;
-  background-color: aqua;
+  background-color: blue;
 }
 
 .about-section {
   height: 100vh;
-  background-color: salmon;
+  background-color: purple;
 }
 
 .contact-section {
   height: 100vh;
-  background-color: purple;
+  background-color: red;
+}
+
+.services-section {
+  height: 100vh;
+  background-color: green;
 }
