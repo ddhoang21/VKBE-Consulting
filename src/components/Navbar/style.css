@@ -1,10 +1,12 @@
 .navbar {
     position: relative;
+    background-color: #777;
 }
+
 .navbar-brand {
-    position: absolute;
-    left: 43%;
+    /* position: absolute; */
     height: 50px;
     width: 100px;
-    display: block;
+    /* display: block; */
 }
+
