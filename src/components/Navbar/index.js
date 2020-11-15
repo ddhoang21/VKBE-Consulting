@@ -1,35 +1,29 @@
-import React, { Component } from "react";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-import { Link } from "react-scroll";
-import Logo from "../../img/logo/vkbe-finallogo-02.png";
+import React from 'react';
+import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Link } from 'react-scroll';
+import Logo from '../../img/logo/vkbe-finallogo-02.png';
 import './style.css';
 
-class NavigationBar extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
-  render() {
-    return (
-      <Navbar collapseOnSelect sticky="top" variant="dark" expand="lg">
+function NavigationBar() {
+  return (
+    <React.Fragment>
+      <Navbar collapseOnSelect fixed='top' variant='dark' expand='lg' id='navigationBar'>
         <Navbar.Brand>
           <img
-            alt="logo"
+            alt='logo'
             src={Logo}
-            width="100"
-            height="30"
-            className="navbar-brand"
+            width='100'
+            height='30'
+            className='navbar-brand ml-5'
           />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ml-auto">
+        <Navbar.Toggle aria-controls='responsive-navbar-nav' />
+        <Navbar.Collapse id='responsive-navbar-nav'>
+          <Nav className='ml-auto mr-5'>
             <Nav.Link>
               <Link  
-                activeClass="active"
-                to="main"
+                activeClass='active'
+                to='main'
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -39,19 +33,19 @@ class NavigationBar extends Component {
             </Nav.Link>
             <Nav.Link>
               <Link 
-                activeClass="active"
-                to="about"
+                activeClass='active'
+                to='about'
                 spy={true}
                 smooth={true}
-                offset={-190}
+                offset={-115}
                 duration= {500}
                 >About
               </Link>
             </Nav.Link>
             <Nav.Link>
               <Link 
-                activeClass="active"
-                to="services"
+                activeClass='active'
+                to='services'
                 spy={true}
                 smooth={true}
                 offset={-80}
@@ -60,21 +54,43 @@ class NavigationBar extends Component {
               </Link>
             </Nav.Link>
             <Nav.Link>
+              <Link 
+                activeClass='active'
+                to='testimonial'
+                spy={true}
+                smooth={true}
+                offset={-80}
+                duration= {500}
+                >Testimonials
+              </Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link 
+                activeClass='active'
+                to='team'
+                spy={true}
+                smooth={true}
+                offset={-80}
+                duration= {500}
+                >Team
+              </Link>
+            </Nav.Link>
+            <Nav.Link>
               <Link
-                activeClass="active"
-                to="contact"
+                activeClass='active'
+                to='contact'
                 spy={true}
                 smooth={true}
                 offset={-100}
                 duration= {500}
-                >Contact
+                >Contact Us
               </Link>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-    )
-  }
+    </React.Fragment>
+  )
 }
 
 export default NavigationBar;

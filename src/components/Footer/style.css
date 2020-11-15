@@ -1,9 +1,9 @@
-.footer {
+.footer-copyright {
   min-height: 100px;
   position: relative;
 }
   
-.footer span {
+.footer-copyright span {
   position: absolute;
   bottom: 0;
   left: 0;

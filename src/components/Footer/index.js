@@ -1,19 +1,14 @@
-import React, { Component } from "react";
+import React from 'react';
 import './style.css';
 
-class Footer extends Component {
-    constructor(props) {
-      super(props);
-      this.state = {};
-    }
-  
-    render() {
-        return (
-            <footer className="footer">
+function Footer() {
+    return (
+        <React.Fragment>
+            <div className='footer-copyright text-center py-3'>
                 <span>VKBE &copy; 2020</span>
-            </footer>
-        )
-    }
+            </div>
+        </React.Fragment>
+    )
 }
 
 export default Footer;
