@@ -52,6 +52,7 @@ function App() {
             offstyle='light'
             offlabel='light'
             onlabel='dark'
+            offstyle="outline-light"
           />
         </Container>
         <About />
