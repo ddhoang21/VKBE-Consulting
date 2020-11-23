@@ -11,9 +11,6 @@ function Testimonial() {
             <TestimonialCarousel />
             <br></br>
             <br></br>
-            <Container>
-                <hr></hr>
-            </Container>
         </div>
     )
 }

@@ -40,7 +40,7 @@ function Footer() {
                                         to='about'
                                         spy={true}
                                         smooth={true}
-                                        offset={-115}
+                                        offset={-152}
                                         duration= {500}
                                         >About
                                     </Link>
@@ -59,23 +59,23 @@ function Footer() {
                                 <Nav.Link>
                                     <Link 
                                         activeClass='active'
-                                        to='testimonial'
-                                        spy={true}
-                                        smooth={true}
-                                        offset={-80}
-                                        duration= {500}
-                                        >Testimonials
-                                    </Link>
-                                </Nav.Link>
-                                <Nav.Link>
-                                    <Link 
-                                        activeClass='active'
                                         to='team'
                                         spy={true}
                                         smooth={true}
                                         offset={-80}
                                         duration= {500}
                                         >Team
+                                    </Link>
+                                </Nav.Link>
+                                <Nav.Link>
+                                    <Link 
+                                        activeClass='active'
+                                        to='testimonial'
+                                        spy={true}
+                                        smooth={true}
+                                        offset={-80}
+                                        duration= {500}
+                                        >Testimonials
                                     </Link>
                                 </Nav.Link>
                                 <Nav.Link>

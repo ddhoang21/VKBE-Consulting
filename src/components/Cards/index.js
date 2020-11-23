@@ -7,7 +7,7 @@ import './style.css';
 function Cards() {
     return (
         <React.Fragment>
-                <Container className='mt-5'>
+                <Container className='mt-5 mb-5'>
                     <Row>
                         <Col lg className='ml-5 mb-3'>
                             <Accordion>
@@ -132,44 +132,3 @@ function Cards() {
 }
 
 export default Cards;
-
-
-
-
-
-// const cardInfo = [
-    //     { image: image4, title: 'Cloud Infrastructure', text: '' },
-    //     { image: '2', title: 'Cloud Infrastructure', text: '' },
-    //     { image: '3', title: 'Cloud Infrastructure', text: '' },
-    //     { image: '4', title: 'Cloud Infrastructure', text: '' },
-    //     { image: '5', title: 'Cloud Infrastructure', text: '' },
-    //     { image: '6', title: 'Cloud Infrastructure', text: '' }
-    // ];
-
-    // const RenderCards = (card, index) => {
-    //     return (
-    //         <Col>
-    //             <Card className='text-center' style={{ width: '16rem' }} key={index}>
-    //                 <Card.Img 
-    //                 src={card.image} 
-    //                 style={{ width: '100px', height: '150px' }} 
-    //                 variant='top'>
-    //                 </Card.Img>
-    //                 <Card.Body>
-    //                     <Card.Title>{card.title}</Card.Title>
-    //                 <Card.Text>{card.text}</Card.Text>
-    //             </Card.Body>
-    //             </Card>
-    //         </Col>
-    //     );
-    // };
-
-    // return (
-    //     <React.Fragment>
-    //         <Container>
-    //             <Row>
-    //                 {cardInfo.map(RenderCards)}
-    //             </Row>
-    //         </Container>
-    //     </React.Fragment>
-    // )
