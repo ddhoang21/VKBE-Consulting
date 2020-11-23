@@ -1,8 +1,8 @@
 .footer {
-  min-height: 100px;
+  min-height: 170px;
   position: relative;
   background-color: rgba(0, 0, 0, 0.5);
-  padding-top: 60px;
+  padding-top: 40px;
   isolation: isolate;
 }
 
