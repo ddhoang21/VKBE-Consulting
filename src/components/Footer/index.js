@@ -27,7 +27,7 @@ function Footer() {
                                     <Link  
                                         activeClass='active'
                                         to='main'
-                          ∂              spy={true}
+                                        spy={true}
                                         smooth={true}
                                         offset={-70}
                                         duration= {500}

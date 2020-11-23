@@ -23,7 +23,7 @@ function Mainpage() {
                                         to='about'
                                         spy={true}
                                         smooth={true}
-                                        offset={-115}
+                                        offset={-152}
                                         duration= {500}
                                         >Learn More
                                     </Link>

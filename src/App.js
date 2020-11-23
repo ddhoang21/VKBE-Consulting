@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
 import BootstrapSwitchButton from 'bootstrap-switch-button-react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAdjust } from '@fortawesome/free-solid-svg-icons';
 import Navbar from './components/Navbar/index';
 import Header from './sections/Main';
 import About from './sections/About';
@@ -45,10 +43,13 @@ function App() {
         <Navbar  />
         <Header />
         <BootstrapSwitchButton 
-          onChange={() => setDarkMode(prevMode => !prevMode)} 
+          onChange={() => setDarkMode(prevMode => !prevMode)}
+          width={65}
           checked={true} 
-          onstyle="dark" 
-          offstyle="light"
+          onstyle='dark' 
+          offstyle='light'
+          offlabel='light'
+          onlabel='dark'
         />
         <About />
         <Services />
