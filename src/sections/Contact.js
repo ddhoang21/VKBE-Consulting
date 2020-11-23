@@ -5,7 +5,7 @@ import ContactJumbotron from '../components/Contact-Jumbotron';
 function Contact() {
     return (
         <div id='contact'>
-            <Container style={{marginTop: '100px'}}>
+            <Container style={{marginTop: '60px'}}>
                 <hr></hr>
             </Container>
             <Container>
