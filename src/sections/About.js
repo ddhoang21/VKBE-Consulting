@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Container } from 'react-bootstrap';
-
+// import DarkModeToggle from "react-dark-mode-toggle";
 
 function About() {
+    // const [isDarkMode, setIsDarkMode] = useState ( () => false );
     return (
         <div id='about'>
             <h1 className='text-center font-weight-bold'>Who We Are</h1>
@@ -12,6 +13,11 @@ function About() {
                 <p>Our mission is to create a seamless transition by providing you with the necessary resources and knowledge throughout your entire cloud journey.</p>
             </Container>
             <br></br>
+            {/* <DarkModeToggle
+                onChange={setIsDarkMode}
+                checked={isDarkMode}
+                size={80}
+            /> */}
             <Container>
                 <hr></hr>
             </Container>

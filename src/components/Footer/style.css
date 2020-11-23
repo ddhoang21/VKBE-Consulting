@@ -1,13 +1,32 @@
-.footer-copyright {
+.footer {
   min-height: 100px;
   position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 60px;
+  isolation: isolate;
 }
-  
-.footer-copyright span {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 15px;
-  background: #777;
+
+
+/* .footer .footer-links a:focus {
+    border: none;
+    outline: none;
+} */
+
+.footer .nav a {
+  color: lightgrey;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.footer .nav a:hover {
+  color: #f8feba;
+  text-decoration: none;
+}
+
+.nav a {
+  padding-right: 0;
+}
+
+.copyright {
+  color: black;
 }

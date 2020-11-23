@@ -1,13 +1,21 @@
-.navbar {
-    background-color: rgba(0,0,0,0.5);
-
-}
-
-/* .navbar .navlink:hover {
-    background-color:#000;
-} */
-
 .navbar-brand {
     height: 50px;
     width: 100px;
+}
+
+.navbar {
+    background-color: rgba(0,0,0,0.5);
+}
+
+#navigationBar .nav a {
+    text-transform: uppercase;
+}
+
+#navigationBar .nav a:focus {
+    color: #f8feba;
+}
+
+#navigationBar .nav a:hover {
+    color: #f8feba;
+    text-decoration: none;
 }

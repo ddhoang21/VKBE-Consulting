@@ -1,20 +1,17 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import ContactForm from '../components/Form';
+import ContactJumbotron from '../components/Contact-Jumbotron';
 
 function Contact() {
     return (
-        <React.Fragment>
-            <Container id='contact'>
+        <div id='contact'>
+            <Container>
+                <br></br>
                 <h1 className='text-center font-weight-bold'>Contact Us</h1>
-                <p className='text-center'>Email us with any request: vkbeconsulting@gmail.com</p>
-                <Row>
-                    <Col>
-                        <ContactForm />
-                    </Col>
-                </Row>
+                <br></br>
+                <ContactJumbotron />
             </Container>
-        </React.Fragment>
+        </div>
     )
 }
 

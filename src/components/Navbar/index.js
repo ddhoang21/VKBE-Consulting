@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 import Logo from '../../img/logo/vkbe-finallogo-02.png';
 import './style.css';
@@ -8,7 +8,13 @@ function NavigationBar() {
   return (
     <React.Fragment>
       <Navbar collapseOnSelect fixed='top' variant='dark' expand='lg' id='navigationBar'>
-        <Navbar.Brand>
+        <Navbar.Brand as={Link}
+          activeClass='active'
+          to='main'
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration= {500}>
           <img
             alt='logo'
             src={Logo}
@@ -19,8 +25,8 @@ function NavigationBar() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>
-          <Nav className='ml-auto mr-5'>
-            <Nav.Link>
+          <Nav className='nav ml-auto mr-5'>
+            {/* <Nav.Link>
               <Link  
                 activeClass='active'
                 to='main'
@@ -30,7 +36,7 @@ function NavigationBar() {
                 duration= {500}
                 >Home
               </Link>
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link>
               <Link 
                 activeClass='active'
