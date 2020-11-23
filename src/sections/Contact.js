@@ -5,6 +5,9 @@ import ContactJumbotron from '../components/Contact-Jumbotron';
 function Contact() {
     return (
         <div id='contact'>
+            <Container style={{marginTop: '100px'}}>
+                <hr></hr>
+            </Container>
             <Container>
                 <br></br>
                 <h1 className='text-center font-weight-bold'>Contact Us</h1>

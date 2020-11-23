@@ -1,10 +1,11 @@
 import React from 'react';
 import { Jumbotron } from 'react-bootstrap';
+import './style.css';
 
 function ContactJumbotron() {
     return (
         <React.Fragment>
-            <Jumbotron>
+            <Jumbotron className='jumbo'>
                 <p className='text-center'>Schedule a <a href="https://www.google.com/">free consultation</a> if we make sense. Or send us <a href="mailto:someone@example.com">an email</a></p>
             </Jumbotron>
         </React.Fragment>
