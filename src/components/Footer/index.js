@@ -84,7 +84,7 @@ function Footer() {
                                         to='contact'
                                         spy={true}
                                         smooth={true}
-                                        offset={-100}
+                                        offset={-65}
                                         duration= {500}
                                         >Contact Us
                                     </Link>
