@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import BootstrapSwitchButton from 'bootstrap-switch-button-react';
 import Navbar from './components/Navbar/index';
 import Header from './sections/Main';
@@ -46,12 +46,13 @@ function App() {
         <Container className='text-right'>
           <BootstrapSwitchButton 
             onChange={() => setDarkMode(prevMode => !prevMode)}
-            width={65}
+            width={50}
+            size="sm"
             checked={true} 
             onstyle='dark' 
-            offstyle='light'
-            offlabel='light'
-            onlabel='dark'
+            offstyle="outline-light" 
+            onlabel='☾'
+            offlabel='☀'
           />
         </Container>
         <About />

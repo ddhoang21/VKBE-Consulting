@@ -11,11 +11,10 @@ function Cards() {
                     <Row>
                         <Col lg className='ml-5 mb-3'>
                             <Accordion>
-                                <Card id='card1' style={{ width: '20rem' }} className='text-center'>
+                                <Card id='card1' style={{ width: '18rem' }} className='text-center'>
                                     <Accordion.Toggle as={Card.Img} eventKey='1'
                                         alt='AWS'
                                         src={image4}
-                                        width='100px'
                                         height='150px'
                                         variant='top'
                                     />
@@ -30,11 +29,10 @@ function Cards() {
                         </Col>
                         <Col lg className='ml-5 mb-3'>
                             <Accordion>
-                                <Card id='card2' style={{ width: '20rem' }} className='text-center'>
+                                <Card id='card2' style={{ width: '18rem' }} className='text-center'>
                                     <Accordion.Toggle as={Card.Img} eventKey='2' 
                                         alt='build'
                                         src={image3}
-                                        width='100px'
                                         height='150px'
                                         variant='top'  
                                     />
@@ -49,11 +47,10 @@ function Cards() {
                         </Col>
                         <Col lg className='ml-5 mb-3'>
                             <Accordion>
-                                <Card id='card3' style={{ width: '20rem' }} className='text-center'>
+                                <Card id='card3' style={{ width: '18rem' }} className='text-center'>
                                     <Accordion.Toggle as={Card.Img} eventKey='3'
                                         alt='security'
                                         src={image3}
-                                        width='100px'
                                         height='150px'
                                         variant='top'
                                     />
@@ -70,11 +67,10 @@ function Cards() {
                     <Row>
                         <Col lg className='ml-5 mb-3'>
                             <Accordion>
-                                <Card id='card4' style={{ width: '20rem' }} className='text-center'>
+                                <Card id='card4' style={{ width: '18rem' }} className='text-center'>
                                     <Accordion.Toggle as={Card.Img} eventKey='4'
                                         alt='strategic'
                                         src={image4}
-                                        width='100px'
                                         height='150px'
                                         variant='top'  
                                     />
@@ -89,11 +85,10 @@ function Cards() {
                         </Col>
                         <Col lg className='ml-5 mb-3'>
                             <Accordion>
-                                <Card id='card5' style={{ width: '20rem' }} className='text-center'>
+                                <Card id='card5' style={{ width: '18rem' }} className='text-center'>
                                     <Accordion.Toggle as={Card.Img} eventKey='5' 
                                         alt='cost'
                                         src={image4}
-                                        width='100px'
                                         height='150px'
                                         variant='top'  
                                     />
@@ -108,11 +103,10 @@ function Cards() {
                         </Col>
                         <Col lg className='ml-5 mb-3'>
                             <Accordion>
-                                <Card id='card6' style={{ width: '20rem' }} className='text-center'>
+                                <Card id='card6' style={{ width: '18rem' }} className='text-center'>
                                     <Accordion.Toggle as={Card.Img} eventKey='6' 
                                         alt='devops'
                                         src={image3}
-                                        width='100px'
                                         height='150px'
                                         variant='top'  
                                     />
