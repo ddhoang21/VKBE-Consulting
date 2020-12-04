@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 import './style.css';
 // import bgIllustration from '../../img/header/background-illustration-02.png'
 
-function Mainpage() {
+const Mainpage = () => {
     return (
         <React.Fragment>
             <Jumbotron className='mb-5' id='jumbo'>

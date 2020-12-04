@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 import Logo from '../../img/logo/vkbe-finallogo-02.png';
 import './style.css';
 
-function NavigationBar() {
+const NavigationBar = () => {
   return (
     <React.Fragment>
         <Navbar collapseOnSelect fixed='top' variant='dark' expand='lg' id='navigationBar'>

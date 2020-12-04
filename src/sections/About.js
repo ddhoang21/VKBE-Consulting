@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 
-function About() {
+const About = () => {
     return (
         <div id='about'>
             <h1 className='text-center font-weight-bold'>Who We Are</h1>

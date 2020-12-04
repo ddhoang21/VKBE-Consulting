@@ -2,7 +2,7 @@ import React from 'react';
 import { Jumbotron } from 'react-bootstrap';
 import './style.css';
 
-function ContactJumbotron() {
+const ContactJumbotron = () => {
     return (
         <React.Fragment>
             <Jumbotron className='jumbo'>

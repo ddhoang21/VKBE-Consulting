@@ -12,7 +12,7 @@ import Contact from './sections/Contact';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
+const App = () => {
   const isReturningUser = 'dark' in localStorage;
   const [darkMode, setDarkMode] = React.useState(getInitialMode());
   React.useEffect(() => {
@@ -35,7 +35,7 @@ function App() {
   function getPrefColorScheme() {
     if (!window.matchMedia) return;
 
-    window.matchMedia('(prefers-color-scheme: dark');
+    window.matchMedia('prefers-color-scheme: dark');
   }
 
   return (

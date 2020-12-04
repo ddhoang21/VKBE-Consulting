@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGoogle } from '@fortawesome/free-brands-svg-icons';
 
-function Footer() {
+const Footer = () => {
     return (
         <React.Fragment>
             <footer className="footer">

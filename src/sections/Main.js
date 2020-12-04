@@ -1,7 +1,7 @@
 import React from 'react';
 import Mainpage from '../components/Jumbotron';
 
-function Main() {
+const Main = () => {
     return (
         <div id='main'>
             <Mainpage />

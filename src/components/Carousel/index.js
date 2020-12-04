@@ -5,7 +5,7 @@ import './style.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar, faStarHalfAlt} from '@fortawesome/free-solid-svg-icons';
 
-function TestimonialCarousel() {
+const TestimonialCarousel = () => {
     return (
         <div>
             <Container className='slider mt-5'>

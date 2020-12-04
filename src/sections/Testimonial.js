@@ -3,7 +3,7 @@ import TestimonialCarousel from '../components/Carousel';
 import { Container } from 'react-bootstrap';
 
 
-function Testimonial() {
+const Testimonial = () => {
     return (
         <div id='testimonial'>
             <br></br>

@@ -3,7 +3,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 import imageDH from '../img/team/duc-huy.jpg';
 import imageZ from '../img/team/zlatko.jpg'; 
 
-function Team() {
+const Team = () => {
     return (
         <div id='team'>
             <div id='about'>

@@ -4,7 +4,7 @@ import image3 from '../../img/services/Security-04.png';
 import image4 from '../../img/services/StategicConslt-03.png';
 import './style.css';
 
-function Cards() {
+const Cards = () => {
     return (
         <React.Fragment>
                 <Container className='mt-5 mb-5'>

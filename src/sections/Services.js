@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import Cards from '../components/Cards';
 
-function Services() {
+const Services = () => {
     return (
         <div id='services'>
             <br></br>

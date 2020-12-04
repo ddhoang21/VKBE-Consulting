@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ContactJumbotron from '../components/Contact-Jumbotron';
 
-function Contact() {
+const Contact = () => {
     return (
         <div id='contact'>
             <Container style={{marginTop: '60px'}}>
