@@ -16,3 +16,21 @@
   background-color: #1A1919;
   color: #999;
 }
+
+.services-header {
+  font-family: 'Roboto Slab', serif;
+}
+
+#card {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.card-title {
+  font-family: 'Roboto Slab', serif;
+}
+
+.line {
+  color: #B8E7EA;
+  margin-top: -15px;
+}
