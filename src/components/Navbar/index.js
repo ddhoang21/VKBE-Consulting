@@ -26,17 +26,6 @@ const NavigationBar = () => {
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />
           <Navbar.Collapse id='responsive-navbar-nav'>
             <Nav className='nav ml-auto mr-5'>
-              {/* <Nav.Link>
-                <Link  
-                  activeClass='active'
-                  to='main'
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration= {500}
-                  >Home
-                </Link>
-              </Nav.Link> */}
               <Nav.Link>
                 <Link 
                   activeClass='active'
