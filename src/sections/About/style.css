@@ -1,8 +1,8 @@
-h1 {
+.about-header {
     font-family: 'Roboto Slab', serif;
 }
 
-p {
-    font-size: 21px;
+.about-text {
     font-family: 'Roboto', sans-serif;
+    font-size: 21px;
 }

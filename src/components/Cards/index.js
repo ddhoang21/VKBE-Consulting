@@ -27,7 +27,7 @@ const Cards = () => {
                                         <Card.Title className='card-title' style={{fontSize: '23px'}}>Security & Compliance</Card.Title>
                                         <p className='line font-weight-bold'>_______</p>
                                         <Accordion.Collapse eventKey='1'>
-                                            <Card.Text style={{fontSize: '16px'}}>Ensure that your infrastructure follows AWS Security Best Practices like Netflix, Twitch, and LinkedIn</Card.Text>
+                                            <Card.Text style={{fontSize: '16px', fontFamily: "'Roboto', sans-serif"}}>Ensure that your infrastructure follows AWS Security Best Practices like Netflix, Twitch, and LinkedIn</Card.Text>
                                         </Accordion.Collapse>
                                     </Card.Body>
                                 </Card>
@@ -46,7 +46,7 @@ const Cards = () => {
                                         <Card.Title className='card-title' style={{fontSize: '23px'}}>Strategic Consulting</Card.Title>
                                         <p className='line font-weight-bold'>_______</p>
                                         <Accordion.Collapse eventKey='2'>
-                                            <Card.Text style={{fontSize: '16px'}}>Offer architectural guidance on how to start and optimize your AWS projects from start to finish</Card.Text>
+                                            <Card.Text style={{fontSize: '16px', fontFamily: "'Roboto', sans-serif"}}>Offer architectural guidance on how to start and optimize your AWS projects from start to finish</Card.Text>
                                         </Accordion.Collapse>
                                     </Card.Body>
                                 </Card>
@@ -65,7 +65,7 @@ const Cards = () => {
                                         <Card.Title className='card-title' style={{fontSize: '23px'}}>Cost</Card.Title>
                                         <p className='line font-weight-bold'>_______</p>
                                         <Accordion.Collapse eventKey='3'>
-                                            <Card.Text style={{fontSize: '16px'}}>Significantly reduce your AWS bill (up to 50%) by optimizing your environment for costs</Card.Text>
+                                            <Card.Text style={{fontSize: '16px', fontFamily: "'Roboto', sans-serif"}}>Significantly reduce your AWS bill (up to 50%) by optimizing your environment for costs</Card.Text>
                                         </Accordion.Collapse>
                                     </Card.Body>
                                 </Card>
@@ -86,7 +86,7 @@ const Cards = () => {
                                         <Card.Title className='card-title' style={{fontSize: '23px'}}>DevOps</Card.Title>
                                         <p className='line font-weight-bold'>_______</p>
                                         <Accordion.Collapse eventKey='4'>
-                                            <Card.Text style={{fontSize: '16px'}}>Give you hands-on help with automating the deployment, testing, and monitoring of your services</Card.Text>
+                                            <Card.Text style={{fontSize: '16px', fontFamily: "'Roboto', sans-serif"}}>Give you hands-on help with automating the deployment, testing, and monitoring of your services</Card.Text>
                                         </Accordion.Collapse>
                                     </Card.Body>
                                 </Card>
@@ -105,7 +105,7 @@ const Cards = () => {
                                         <Card.Title className='card-title' style={{fontSize: '23px'}}>Migrate to AWS</Card.Title>
                                         <p className='line font-weight-bold'>_______</p>
                                         <Accordion.Collapse eventKey='5'>
-                                            <Card.Text style={{fontSize: '16px'}}>Show you the best and most efficient way to migrate your workloads to AWS</Card.Text>
+                                            <Card.Text style={{fontSize: '16px', fontFamily: "'Roboto', sans-serif"}}>Show you the best and most efficient way to migrate your workloads to AWS</Card.Text>
                                         </Accordion.Collapse>
                                     </Card.Body>
                                 </Card>
@@ -124,7 +124,7 @@ const Cards = () => {
                                         <Card.Title className='card-title' style={{fontSize: '23px'}}>Build Application</Card.Title>
                                         <p className='line font-weight-bold'>_______</p>
                                         <Accordion.Collapse eventKey='6'>
-                                            <Card.Text style={{fontSize: '16px'}}>Build highly scalable applications based on serverless architecture</Card.Text>
+                                            <Card.Text style={{fontSize: '16px', fontFamily: "'Roboto', sans-serif"}}>Build highly scalable applications based on serverless architecture</Card.Text>
                                         </Accordion.Collapse>
                                     </Card.Body>
                                 </Card>

@@ -13,10 +13,10 @@
 }
 
 #navigationBar .nav a:focus {
-    color: #f8feba;
+    color: #4A26AB;
 }
 
 #navigationBar .nav a:hover {
-    color: #f8feba;
-    text-decoration: none;
+    color: #4A26AB;
+    /* text-decoration: none; */
 }
