@@ -6,24 +6,41 @@
     background-position: center;
 }
 
-#btn {
-    border-radius: 50px;
+#more-button {
+    border-radius: 18px;
     padding-left: 30px;
     padding-right: 30px;
     color: white;
     background-color: #4A26AB;
-    border: none;
+    font-family: "Garamond";
+    font-size: 18px;
     outline: none;
-    font-family: "Garamond";
+    border: none;
 }
 
-#headings {
+#contact-button {
+    border-radius: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    border-color: #B8E7EA;
+    border-width: 2px;
+    background-color: rgba(0, 0, 0, 0);
     font-family: "Garamond";
-    color: #B8E7EA;
+    font-size: 18px;
+}
+
+.main-header {
+    font-size: 70px;
     margin-top: 150px;
+    color: #F5F5F5;
+    font-family: "Garamond";
+    text-shadow: 2px 2px black;
 }
 
-/* #paragraph {
-    color: #555;
+.sub-header {
+    font-size: 30px;
+    color: #B8E7EA;
     font-family: "Garamond";
-} */
+    text-shadow: 2px 2px black;
+}

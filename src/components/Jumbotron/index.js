@@ -1,5 +1,5 @@
 import React from 'react';
-import { Jumbotron, Button, Col, Row, Image } from 'react-bootstrap';
+import { Jumbotron, Button, Col, Row, Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 import './style.css';
 // import bgIllustration from '../../img/header/background-illustration-02.png'
@@ -10,15 +10,15 @@ const Mainpage = () => {
             <Jumbotron className='mb-5' id='jumbo'>
                 <Row>
                     <Col>
-                        <div className='ml-5' id='headings'>
-                            <h1 style={{fontSize:'6vh'}}>VKBE CONSULTING</h1>
-                            <h4 style={{fontSize:'3vh'}}>A Seattle based software consulting company</h4>
+                        <div className='ml-5'>
+                            <h1 className='main-header'>VKBE CONSULTING</h1>
+                            <h4 className='sub-header ml-2'>A Seattle based software consulting company</h4>
                         </div>
                         <br></br>
                         <div>
                             <br></br>
                             <div className='ml-5'>
-                                <Button id='btn'>
+                                <Button id='more-button' className='shadow-none'>
                                     <Link  
                                         to='about'
                                         spy={true}
@@ -26,6 +26,16 @@ const Mainpage = () => {
                                         offset={-145}
                                         duration= {500}
                                         >Learn More
+                                    </Link>
+                                </Button>
+                                <Button id='contact-button' className='shadow-none ml-5'> 
+                                    <Link  
+                                        to='about'
+                                        spy={true}
+                                        smooth={true}
+                                        offset={-145}
+                                        duration= {500}
+                                        >Contact Us
                                     </Link>
                                 </Button>
                             </div>
