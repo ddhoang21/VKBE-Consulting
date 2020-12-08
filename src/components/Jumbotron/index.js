@@ -29,10 +29,10 @@ const Mainpage = () => {
                                 </Button>
                                 <Button id='contact-button' className='shadow-none'> 
                                     <Link  
-                                        to='about'
+                                        to='contact'
                                         spy={true}
                                         smooth={true}
-                                        offset={-145}
+                                        offset={-65}
                                         duration= {500}
                                         >Contact Us
                                     </Link>

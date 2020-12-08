@@ -1,8 +1,8 @@
 #jumbo {
     background-image: url(../../img/header/background-illustration-02.png), url(../../img/header/124336571_1065408367245748_4095250669438414830_n.png);
-    height: 93vh;
+    height: 92vh;
     width: 100%;
-    background-size: 950px, cover;
+    background-size: 750px, cover;
     background-position: bottom 50px right 100px, bottom;
     background-repeat: no-repeat, no-repeat;
     margin-top: 65px;
@@ -35,7 +35,7 @@
 }
 
 .main-header {
-    font-size: 70px;
+    font-size: 65px;
     margin-top: 50px;
     color: #F5F5F5;
     font-family: "Garamond";
@@ -49,19 +49,18 @@
     text-shadow: 2px 2px black;
 }
 
-/* ----------------screen at 1375px---------------- */
+/* ----------------screen at 1250px---------------- */
 
-@media only screen and (max-width: 1375px) {
+@media only screen and (max-width: 1250px) {
 
     #jumbo {
         background-image: url(../../img/header/background-illustration-02.png), url(../../img/header/124336571_1065408367245748_4095250669438414830_n.png);
         background-repeat: no-repeat , no-repeat;
-        background-size: 750px, cover;
+        background-size: 700px, cover;
     }
 
     .main-header {
-      font-size: 57px;
-      margin-top: 175px;
+      font-size: 55px;
     }
     
     .sub-header {
@@ -70,24 +69,24 @@
   
 }
 
-/* ----------------screen at 1175px---------------- */
+/* ----------------screen at 1100px---------------- */
 
-@media only screen and (max-width: 1175px) {
+@media only screen and (max-width: 1100px) {
 
     #jumbo {
         background-position: top, bottom;
-        background-size: 650px, cover;
+        background-size: 520px, cover;
     }
 
     .main-header {
-      font-size: 55px;
-      margin-top: 450px;
+      font-size: 45px;
+      margin-top: 330px;
       display: flex;
       justify-content: center;
     }
     
     .sub-header {
-      font-size: 25px;
+      font-size: 22px;
       display: flex;
       justify-content: center;
     }
@@ -104,30 +103,19 @@
         margin-right: auto;
         left: 0;
         right: 0;
+        margin-top: -30px;
     }
 
     #contact-button {
         width: 96%;
         position: absolute;
-        margin-top: 55px;
+        margin-top: 30px;
         margin-left: auto;
         margin-right: auto;
         left: 0;
         right: 0;
         text-align: center;
     }
-
-    /* #more-button {
-        width: 800px;
-        margin-left: 165px;
-        margin-top: -50px;
-    }
-
-    #contact-button {
-        width: 800px;
-        height: 40px;
-        margin-left: 165px;
-    } */
   
 }
 
@@ -136,33 +124,35 @@
 @media only screen and (max-width: 767px) {
 
     #jumbo {
-        background-size: 600px, cover;
+        background-size: 500px, cover;
     }
     
     .main-header {
-        font-size: 50px;
-    }
-
-    .sub-header {
-        font-size: 24px;
-    }
-  
-}
-
-/* ----------------screen at 600px---------------- */
-
-@media screen and (max-width: 600px) {
-
-    #jumbo {
-        background-size: 530px, cover;
-    }
-
-    .main-header {
-        font-size: 42px;
+        font-size: 40px;
+        margin-top: 320px;
     }
 
     .sub-header {
         font-size: 20px;
+    }
+  
+}
+
+/* ----------------screen at 580px---------------- */
+
+@media screen and (max-width: 580px) {
+
+    #jumbo {
+        background-size: 480px, cover;
+    }
+
+    .main-header {
+        font-size: 35px;
+        margin-top: 350px;
+    }
+
+    .sub-header {
+        font-size: 17px;
     }
     
 }
@@ -172,15 +162,15 @@
 @media screen and (max-width: 479px) {
 
     #jumbo {
-        background-size: 500px, cover;
+        background-size: 450px, cover;
     }
 
     .main-header {
-        font-size: 39px;
+        font-size: 30px;
     }
 
     .sub-header {
-        font-size: 17px;
+        font-size: 15px;
     }
     
 }

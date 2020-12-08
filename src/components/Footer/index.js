@@ -14,8 +14,7 @@ const Footer = () => {
                     <Row>
                         <Col>
                             <div className='footer-links'>
-                                <Button className='shadow-none' href="#" variant='link'><FontAwesomeIcon icon={faEnvelope} size="2x" style={{color:'white'}} fixedWidth/></Button>
-                                <Button className='shadow-none' href="#" variant='link'><FontAwesomeIcon icon={faGoogle} size="2x" style={{color:'white'}} fixedWidth/></Button>
+                                <Button className='shadow-none' href="mailto:info@vkbeconsulting.com" variant='link'><FontAwesomeIcon icon={faEnvelope} size="2x" style={{color:'white'}} fixedWidth/></Button>
                                 <Button className='shadow-none' href="https://www.linkedin.com/company/vkbeconsulting/" target="_blank" variant='link'><FontAwesomeIcon icon={faLinkedin} size="2x" style={{color:'white'}} fixedWidth/></Button>
                             </div>
                         </Col>
