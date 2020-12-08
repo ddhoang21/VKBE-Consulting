@@ -6,13 +6,7 @@
 }
 
 .image-area {
-    /* width: 100px; */
     height: 275px;
-    /* margin: auto; */
-    /* border: 2px solid #fff;
-    border-radius: 50%; */
-    /* overflow: hidden; */
-    /* position: center; */
     visibility: hidden;
 }
 
@@ -32,15 +26,6 @@
     visibility: hidden;
 }
 
-/* .carousel-caption h3 {
-    font-size: 26px;
-    margin-bottom: 15px;
-    margin-top: 25px;
-} */
-
-/* .carousel-caption p {
-    font-size: 18px;
-    margin: auto;
-    width: 70px;
-    margin-bottom: 10px;
-} */
+.testimonial-text {
+    font-family: 'Roboto', sans-serif;
+}

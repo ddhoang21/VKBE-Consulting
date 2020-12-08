@@ -1,6 +1,7 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import ContactJumbotron from '../components/Contact-Jumbotron';
+import './style.css';
+import { Container } from 'react-bootstrap';
+import ContactJumbotron from '../../components/Contact-Jumbotron';
 
 const Contact = () => {
     return (
@@ -10,7 +11,7 @@ const Contact = () => {
             </Container>
             <Container>
                 <br></br>
-                <h1 className='text-center font-weight-bold'>Contact Us</h1>
+                <h1 className='contact-header text-center font-weight-bold'>Contact Us</h1>
                 <br></br>
                 <ContactJumbotron />
             </Container>

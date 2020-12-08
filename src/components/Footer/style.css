@@ -2,32 +2,20 @@
   min-height: 170px;
   position: relative;
   background-color: rgba(0, 0, 0, 0.5);
-  padding-top: 40px;
+  padding-top: 50px;
   isolation: isolate;
   margin-top: 285px;
 }
 
-
-/* .footer .footer-links a:focus {
-    border: none;
-    outline: none;
-} */
-
-.footer .nav a {
-  color: lightgrey;
-  font-weight: 300;
-  text-transform: uppercase;
+.footer-links {
+  color: #F5F5F5;
 }
 
-.footer .nav a:hover {
-  color: #f8feba;
+.footer-links:hover {
+  color: #00009C;
   text-decoration: none;
 }
 
-.nav a {
-  padding-right: 0;
-}
-
 .copyright {
-  color: #333;
+  font-size: 20px;
 }
