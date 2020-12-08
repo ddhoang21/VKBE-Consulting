@@ -16,7 +16,7 @@ const Mainpage = () => {
                         <br></br>
                         <div>
                             <br></br>
-                            <div className='button-container ml-5'>
+                            <div className='button-container'>
                                 <Button id='more-button' className='shadow-none'>
                                     <Link  
                                         to='about'
@@ -27,7 +27,7 @@ const Mainpage = () => {
                                         >Learn More
                                     </Link>
                                 </Button>
-                                <Button id='contact-button' className='shadow-none ml-5'> 
+                                <Button id='contact-button' className='shadow-none'> 
                                     <Link  
                                         to='about'
                                         spy={true}
