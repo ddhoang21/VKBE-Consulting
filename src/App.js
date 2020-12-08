@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Container, Row, Col, Card, Accordion } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 import BootstrapSwitchButton from 'bootstrap-switch-button-react';
 import Navbar from './components/Navbar/index';
 import Header from './sections/Main';
@@ -74,120 +74,96 @@ const App = () => {
           <Container className='mt-5 mb-5'>
             <Row>
               <Col lg className='ml-5 mb-3'>
-                <Accordion>
-                  <Card id='card'>
-                    <Accordion.Toggle as={Card.Img} eventKey='1'
-                      alt='AWS'
-                      src={darkMode ? image1 : image7}
-                      height='150px'
-                      variant='top'
-                    />
-                    <Card.Body>
-                      <Card.Title className='card-title' style={{fontSize: '23px'}}>Security & Compliance</Card.Title>
-                      <p className='line font-weight-bold'>_______</p>
-                      <Accordion.Collapse eventKey='1'>
-                        <Card.Text style={{fontSize: '16px', fontFamily: "'Roboto', sans-serif"}}>Ensure that your infrastructure follows AWS Security Best Practices like Netflix, Twitch, and LinkedIn</Card.Text>
-                      </Accordion.Collapse>
-                    </Card.Body>
-                  </Card>
-                </Accordion>
+                <Card id='card'>
+                  <Card.Img
+                    alt='AWS'
+                    src={darkMode ? image1 : image7}
+                    height='150px'
+                    variant='top'
+                  />
+                  <Card.Body>
+                    <Card.Title className='card-title' style={{fontSize: '23px'}}>Security & Compliance</Card.Title>
+                    <p className='line font-weight-bold'>_______</p>
+                    <Card.Text style={{fontSize: '16px', fontFamily: "'Roboto', sans-serif"}}>Ensure that your infrastructure follows AWS Security Best Practices like Netflix, Twitch, and LinkedIn</Card.Text>
+                  </Card.Body>
+                </Card>
               </Col>
               <Col lg className='ml-5 mb-3'>
-                <Accordion>
-                  <Card id='card'>
-                    <Accordion.Toggle as={Card.Img} eventKey='2' 
-                      alt='build'
-                      src={darkMode ? image2 : image8}
-                      height='150px'
-                      variant='top'  
-                    />
-                    <Card.Body>
-                      <Card.Title className='card-title' style={{fontSize: '23px'}}>Strategic Consulting</Card.Title>
-                      <p className='line font-weight-bold'>_______</p>
-                      <Accordion.Collapse eventKey='2'>
-                        <Card.Text style={{fontSize: '16px', fontFamily: "'Roboto', sans-serif"}}>Offer architectural guidance on how to start and optimize your AWS projects from start to finish</Card.Text>
-                      </Accordion.Collapse>
-                    </Card.Body>
-                  </Card>
-                </Accordion>
+                <Card id='card'>
+                  <Card.Img 
+                    alt='build'
+                    src={darkMode ? image2 : image8}
+                    height='150px'
+                    variant='top'  
+                  />
+                  <Card.Body>
+                    <Card.Title className='card-title' style={{fontSize: '23px'}}>Strategic Consulting</Card.Title>
+                    <p className='line font-weight-bold'>_______</p>
+                    <Card.Text style={{fontSize: '16px', fontFamily: "'Roboto', sans-serif"}}>Offer architectural guidance on how to start and optimize your AWS projects from start to finish</Card.Text>
+                  </Card.Body>
+                </Card>
               </Col>
               <Col lg className='ml-5 mb-3'>
-                <Accordion>
-                  <Card id='card'>
-                    <Accordion.Toggle as={Card.Img} eventKey='3'
-                      alt='security'
-                      src={darkMode ? image3 : image9}
-                      height='150px'
-                      variant='top'
-                    />
-                    <Card.Body>
-                      <Card.Title className='card-title' style={{fontSize: '23px'}}>Cost</Card.Title>
-                      <p className='line font-weight-bold'>_______</p>
-                      <Accordion.Collapse eventKey='3'>
-                        <Card.Text style={{fontSize: '16px', fontFamily: "'Roboto', sans-serif"}}>Significantly reduce your AWS bill (up to 50%) by optimizing your environment for costs</Card.Text>
-                      </Accordion.Collapse>
-                    </Card.Body>
-                  </Card>
-                </Accordion>
+                <Card id='card'>
+                  <Card.Img
+                    alt='security'
+                    src={darkMode ? image3 : image9}
+                    height='150px'
+                    variant='top'
+                  />
+                  <Card.Body>
+                    <Card.Title className='card-title' style={{fontSize: '23px'}}>Cost</Card.Title>
+                    <p className='line font-weight-bold'>_______</p>
+                    <Card.Text style={{fontSize: '16px', fontFamily: "'Roboto', sans-serif"}}>Significantly reduce your AWS bill (up to 50%) by optimizing your environment for costs</Card.Text>
+                  </Card.Body>
+                </Card> 
               </Col>
             </Row>
             <Row>
               <Col lg className='ml-5 mb-3'>
-                <Accordion>
-                  <Card id='card'>
-                    <Accordion.Toggle as={Card.Img} eventKey='4'
-                      alt='strategic'
-                      src={darkMode ? image4 : image10}
-                      height='150px'
-                      variant='top'  
-                    />
-                    <Card.Body>
-                      <Card.Title className='card-title' style={{fontSize: '23px'}}>DevOps</Card.Title>
-                      <p className='line font-weight-bold'>_______</p>
-                      <Accordion.Collapse eventKey='4'>
-                        <Card.Text style={{fontSize: '16px', fontFamily: "'Roboto', sans-serif"}}>Give you hands-on help with automating the deployment, testing, and monitoring of your services</Card.Text>
-                      </Accordion.Collapse>
-                    </Card.Body>
-                  </Card>
-                </Accordion>
+                <Card id='card'>
+                  <Card.Img
+                    alt='strategic'
+                    src={darkMode ? image4 : image10}
+                    height='150px'
+                    variant='top'  
+                  />
+                  <Card.Body>
+                    <Card.Title className='card-title' style={{fontSize: '23px'}}>DevOps</Card.Title>
+                    <p className='line font-weight-bold'>_______</p>
+                    <Card.Text style={{fontSize: '16px', fontFamily: "'Roboto', sans-serif"}}>Give you hands-on help with automating the deployment, testing, and monitoring of your services</Card.Text>
+                  </Card.Body>
+                </Card>
               </Col>
               <Col lg className='ml-5 mb-3'>
-                <Accordion>
-                  <Card id='card'>
-                    <Accordion.Toggle as={Card.Img} eventKey='5' 
-                      alt='cost'
-                      src={darkMode ? image5 : image11}
-                      height='150px'
-                      variant='top'  
-                    />
-                    <Card.Body>
-                      <Card.Title className='card-title' style={{fontSize: '23px'}}>Migrate to AWS</Card.Title>
-                      <p className='line font-weight-bold'>_______</p>
-                      <Accordion.Collapse eventKey='5'>
-                          <Card.Text style={{fontSize: '16px', fontFamily: "'Roboto', sans-serif"}}>Show you the best and most efficient way to migrate your workloads to AWS</Card.Text>
-                      </Accordion.Collapse>
-                    </Card.Body>
-                  </Card>
-                </Accordion>
+                <Card id='card'>
+                  <Card.Img 
+                    alt='cost'
+                    src={darkMode ? image5 : image11}
+                    height='150px'
+                    variant='top'  
+                  />
+                  <Card.Body>
+                    <Card.Title className='card-title' style={{fontSize: '23px'}}>Migrate to AWS</Card.Title>
+                    <p className='line font-weight-bold'>_______</p>
+                    <Card.Text style={{fontSize: '16px', fontFamily: "'Roboto', sans-serif"}}>Show you the best and most efficient way to migrate your workloads to AWS</Card.Text>
+                  </Card.Body>
+                </Card>
               </Col>
               <Col lg className='ml-5 mb-3'>
-                <Accordion>
-                  <Card id='card'>
-                    <Accordion.Toggle as={Card.Img} eventKey='6' 
-                      alt='devops'
-                      src={darkMode ? image6 : image12}
-                      height='150px'
-                      variant='top'  
-                    />
-                    <Card.Body>
-                      <Card.Title className='card-title' style={{fontSize: '23px'}}>Build Application</Card.Title>
-                      <p className='line font-weight-bold'>_______</p>
-                      <Accordion.Collapse eventKey='6'>
-                        <Card.Text style={{fontSize: '16px', fontFamily: "'Roboto', sans-serif"}}>Build highly scalable applications based on serverless architecture</Card.Text>
-                      </Accordion.Collapse>
-                    </Card.Body>
-                  </Card>
-                </Accordion>
+                <Card id='card'>
+                  <Card.Img 
+                    alt='devops'
+                    src={darkMode ? image6 : image12}
+                    height='150px'
+                    variant='top'  
+                  />
+                  <Card.Body>
+                    <Card.Title className='card-title' style={{fontSize: '23px'}}>Build Application</Card.Title>
+                    <p className='line font-weight-bold'>_______</p>
+                    <Card.Text style={{fontSize: '16px', fontFamily: "'Roboto', sans-serif"}}>Build highly scalable applications based on serverless architecture</Card.Text>
+                  </Card.Body>
+                </Card>
               </Col>
             </Row>
           </Container>

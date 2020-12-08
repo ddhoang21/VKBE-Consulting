@@ -1,6 +1,6 @@
 #jumbo {
     background-image: url(../../img/header/background-illustration-02.png), url(../../img/header/124336571_1065408367245748_4095250669438414830_n.png);
-    height: 92vh;
+    height: 93vh;
     width: 100%;
     background-size: 750px, cover;
     background-position: bottom 50px right 100px, bottom;
@@ -171,6 +171,24 @@
 
     .sub-header {
         font-size: 15px;
+    }
+    
+}
+
+/* ----------------screen at 380px---------------- */
+
+@media screen and (max-width: 380px) {
+
+    #jumbo {
+        background-size: 430px, cover;
+    }
+
+    .main-header {
+        font-size: 28px;
+    }
+
+    .sub-header {
+        font-size: 14px;
     }
     
 }
