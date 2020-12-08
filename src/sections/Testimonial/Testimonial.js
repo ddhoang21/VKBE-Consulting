@@ -1,8 +1,6 @@
 import React from 'react';
 import './style.css';
 import TestimonialCarousel from '../../components/Carousel';
-import { Container } from 'react-bootstrap';
-
 
 const Testimonial = () => {
     return (

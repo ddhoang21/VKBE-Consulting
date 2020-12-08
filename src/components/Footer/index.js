@@ -1,10 +1,9 @@
 import React from 'react';
 import './style.css';
-import { Container, Row, Col, Nav, Button } from 'react-bootstrap';
-import { Link } from 'react-scroll';
+import { Container, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin, faGoogle } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     return (

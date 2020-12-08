@@ -1,5 +1,5 @@
 import React from 'react';
-import { Jumbotron, Button, Col, Row, Container } from 'react-bootstrap';
+import { Jumbotron, Button, Col, Row } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 import './style.css';
 
