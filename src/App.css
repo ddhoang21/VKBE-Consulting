@@ -34,3 +34,37 @@
   color: #B8E7EA;
   margin-top: -15px;
 }
+
+@media only screen and (max-width: 1199px) {
+
+  #card {
+    width: 120%;
+  }
+
+}
+
+@media only screen and (max-width: 1026px) {
+
+  #card {
+    width: 113%;
+  }
+
+}
+
+@media only screen and (max-width: 991px) {
+
+  #card {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+  #card {
+    width: 83%;
+  }
+
+}
