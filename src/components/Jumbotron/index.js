@@ -2,7 +2,6 @@ import React from 'react';
 import { Jumbotron, Button, Col, Row, Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 import './style.css';
-// import bgIllustration from '../../img/header/background-illustration-02.png'
 
 const Mainpage = () => {
     return (
@@ -17,7 +16,7 @@ const Mainpage = () => {
                         <br></br>
                         <div>
                             <br></br>
-                            <div className='ml-5'>
+                            <div className='button-container ml-5'>
                                 <Button id='more-button' className='shadow-none'>
                                     <Link  
                                         to='about'
@@ -41,9 +40,6 @@ const Mainpage = () => {
                             </div>
                         </div>
                     </Col>
-                    {/* <Col xs={7}>
-                        <Image src={bgIllustration} style={{width:'100%', height: '85%'}}/>
-                    </Col> */}
                 </Row>
             </Jumbotron>
         </React.Fragment>
