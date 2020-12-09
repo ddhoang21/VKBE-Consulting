@@ -84,7 +84,7 @@ const App = () => {
                   <Card.Body>
                     <Card.Title className='card-title' style={{fontSize: '23px'}}>Security & Compliance</Card.Title>
                     <p className='line font-weight-bold'>_______</p>
-                    <Card.Text style={{fontSize: '16px', fontFamily: "'Roboto', sans-serif"}}>Ensure that your infrastructure follows AWS Security Best Practices like Netflix, Twitch, and LinkedIn</Card.Text>
+                    <Card.Text className='card-text'>Ensure that your infrastructure follows AWS Security Best Practices like Netflix, Twitch, and LinkedIn</Card.Text>
                   </Card.Body>
                 </Card>
               </Col>
@@ -99,7 +99,7 @@ const App = () => {
                   <Card.Body>
                     <Card.Title className='card-title' style={{fontSize: '23px'}}>Strategic Consulting</Card.Title>
                     <p className='line font-weight-bold'>_______</p>
-                    <Card.Text style={{fontSize: '16px', fontFamily: "'Roboto', sans-serif"}}>Offer architectural guidance on how to start and optimize your AWS projects from start to finish</Card.Text>
+                    <Card.Text className='card-text'>Offer architectural guidance on how to start and optimize your AWS projects from start to finish</Card.Text>
                   </Card.Body>
                 </Card>
               </Col>
@@ -114,7 +114,7 @@ const App = () => {
                   <Card.Body>
                     <Card.Title className='card-title' style={{fontSize: '23px'}}>Cost</Card.Title>
                     <p className='line font-weight-bold'>_______</p>
-                    <Card.Text style={{fontSize: '16px', fontFamily: "'Roboto', sans-serif"}}>Significantly reduce your AWS bill (up to 50%) by optimizing your environment for costs</Card.Text>
+                    <Card.Text className='card-text'>Significantly reduce your AWS bill (up to 50%) by optimizing your environment for costs</Card.Text>
                   </Card.Body>
                 </Card> 
               </Col>
@@ -131,7 +131,7 @@ const App = () => {
                   <Card.Body>
                     <Card.Title className='card-title' style={{fontSize: '23px'}}>DevOps</Card.Title>
                     <p className='line font-weight-bold'>_______</p>
-                    <Card.Text style={{fontSize: '16px', fontFamily: "'Roboto', sans-serif"}}>Give you hands-on help with automating the deployment, testing, and monitoring of your services</Card.Text>
+                    <Card.Text className='card-text'>Give you hands-on help with automating the deployment, testing, and monitoring of your services</Card.Text>
                   </Card.Body>
                 </Card>
               </Col>
@@ -146,7 +146,7 @@ const App = () => {
                   <Card.Body>
                     <Card.Title className='card-title' style={{fontSize: '23px'}}>Migrate to AWS</Card.Title>
                     <p className='line font-weight-bold'>_______</p>
-                    <Card.Text style={{fontSize: '16px', fontFamily: "'Roboto', sans-serif"}}>Show you the best and most efficient way to migrate your workloads to AWS</Card.Text>
+                    <Card.Text className='card-text'>Show you the best and most efficient way to migrate your workloads to AWS</Card.Text>
                   </Card.Body>
                 </Card>
               </Col>
@@ -161,7 +161,7 @@ const App = () => {
                   <Card.Body>
                     <Card.Title className='card-title' style={{fontSize: '23px'}}>Build Application</Card.Title>
                     <p className='line font-weight-bold'>_______</p>
-                    <Card.Text style={{fontSize: '16px', fontFamily: "'Roboto', sans-serif"}}>Build highly scalable applications based on serverless architecture</Card.Text>
+                    <Card.Text className='card-text'>Build highly scalable applications based on serverless architecture</Card.Text>
                   </Card.Body>
                 </Card>
               </Col>
