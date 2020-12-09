@@ -8,13 +8,13 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 const Footer = () => {
     return (
         <React.Fragment>
-            <footer className="footer text-center">
+            <footer className='footer text-center'>
                 <Container>
-                        <Button className='shadow-none' href="mailto:info@vkbeconsulting.com" variant='link'>
-                            <FontAwesomeIcon icon={faEnvelope} size="2x" className='footer-links'/>
+                        <Button className='shadow-none' href='mailto:info@vkbeconsulting.com' variant='link'>
+                            <FontAwesomeIcon icon={faEnvelope} size='2x' className='footer-links'/>
                         </Button>
-                        <Button className='shadow-none' href="https://www.linkedin.com/company/vkbeconsulting/" target="_blank" variant='link'>
-                            <FontAwesomeIcon icon={faLinkedin} size="2x" className='footer-links'/>
+                        <Button className='shadow-none' href='https://www.linkedin.com/company/vkbeconsulting/' target='_blank' variant='link'>
+                            <FontAwesomeIcon icon={faLinkedin} size='2x' className='footer-links'/>
                         </Button>
                 </Container>
                     <div className='copyright'>

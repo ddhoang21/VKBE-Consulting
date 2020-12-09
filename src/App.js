@@ -59,10 +59,10 @@ const App = () => {
           <BootstrapSwitchButton 
             onChange={() => setDarkMode(prevMode => !prevMode)}
             width={50}
-            size="sm"
+            size='sm'
             checked={true} 
             onstyle='dark' 
-            offstyle="outline-light" 
+            offstyle='outline-light' 
             onlabel='☾'
             offlabel='☀'
           />

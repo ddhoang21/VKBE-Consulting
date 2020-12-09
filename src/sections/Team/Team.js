@@ -39,12 +39,12 @@ const Team = () => {
                     <Container>
                         <Row>
                             <Col xs={6}>
-                                <Accordion.Collapse eventKey="0">
+                                <Accordion.Collapse eventKey='0'>
                                     <p className='team-text'>Zlatko excels at designing and developing high performing systems. He builds enterprise grade applications with a strong expertise in real-time stream processing. Along with his deep technical background, he emphasizes the importance of mature build and release pipelines to ensure efficient software development life cycles. He is driven by the concept of infrastructure as code.</p>
                                 </Accordion.Collapse>
                             </Col>
                             <Col xs={6}>
-                                <Accordion.Collapse eventKey="0">
+                                <Accordion.Collapse eventKey='0'>
                                     <p className='team-text'>Duc-Huy has experience in delivering end-to-end products from various industries such as e-commerce, financial, governmental or healthcare. He works closely with stake-holders from engineers, leadership to end-users for minimizing any risk during the development phase. He focuses on designing the cloud infrastructure and the application development with experience in serverless architecture for web-based applications. He is a cyber-security enthusiast.</p>
                                 </Accordion.Collapse>
                             </Col>
