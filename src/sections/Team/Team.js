@@ -21,14 +21,14 @@ const Team = () => {
                     <Container>
                         <Row>
                             <Col xs={3}>
-                                <Accordion.Toggle as={Image} src={imageZ} width='100%' height='90%' eventKey='0'/>
+                                <Accordion.Toggle as={Image} src={imageZ} width='100%' height='90%' eventKey='0' className='team-pic'/>
                             </Col>
                             <Col xs={3}>
                                 <h3 className='team-name'><strong>Zlatko Porobic</strong></h3>
                                 <h5 className='team-title'>Co-Founder</h5>
                             </Col>
                             <Col xs={3}>
-                                <Accordion.Toggle as={Image} src={imageDH} width='100%' height='96%' eventKey='0'/>
+                                <Accordion.Toggle as={Image} src={imageDH} width='100%' height='96%' eventKey='0' className='team-pic'/>
                             </Col>
                             <Col xs={3}>
                                 <h3 className='team-name'><strong>Duc-Huy Do</strong></h3>

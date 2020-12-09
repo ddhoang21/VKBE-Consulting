@@ -9,7 +9,7 @@
 
 #navigationBar .nav a {
     text-transform: uppercase;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #navigationBar .nav a:focus {

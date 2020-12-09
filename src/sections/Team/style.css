@@ -1,5 +1,5 @@
 .team-header {
-    font-family: 'Roboto Slab', serif;  
+    font-family: 'Roboto', sans-serif; 
 }
 
 .team-intro {
@@ -8,17 +8,122 @@
 }
 
 .team-name {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
     margin-top: 20px;
     margin-left: -30px;
 }
 
 .team-title {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
     margin-left: -30px;
 }
 
 .team-text {
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
+}
+
+@media only screen and (max-width: 991px) {
+
+    .team-intro {
+        font-size: 17px;
+    }
+
+    .team-name {
+        font-size: 25px;
+    }
+
+    .team-title {
+        font-size: 20px;
+    }
+
+    .team-text {
+        font-size: 16px;
+    }
+  
+}
+
+@media only screen and (max-width: 767px) {
+
+    .team-name {
+        font-size: 20px;
+    }
+
+    .team-title {
+        font-size: 17px;
+    }
+
+    .team-text {
+        font-size: 15px;
+    }
+  
+}
+
+@media only screen and (max-width: 767px) {
+
+    .team-name {
+        font-size: 18px;
+    }
+
+    .team-title {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+
+    .team-intro {
+        font-size: 16px;
+    }
+
+    .team-name {
+        font-size: 17px;
+    }
+
+    .team-title {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 478px) {
+    
+    .team-intro {
+        font-size: 15px;
+    }
+
+    .team-name {
+        font-size: 15px;
+    }
+
+    .team-title {
+        font-size: 13px;
+    }
+
+    .team-text {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 393px) {
+
+    .team-name {
+        font-size: 14px;
+    }
+
+    .team-title {
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width: 367px) {
+
+    .team-name {
+        font-size: 13px;
+    }
+
+    .team-title {
+        font-size: 11px;
+    }
+
 }
