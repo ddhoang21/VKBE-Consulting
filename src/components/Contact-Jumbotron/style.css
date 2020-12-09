@@ -8,3 +8,27 @@
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
+
+@media only screen and (max-width: 991px) {
+
+    .contact-text {
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (max-width: 575px) {
+
+    .contact-text {
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (max-width: 385px) {
+
+    .contact-text {
+        font-size: 14px;
+    }
+
+}
