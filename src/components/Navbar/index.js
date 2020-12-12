@@ -64,7 +64,7 @@ const NavigationBar = () => {
                   >Team
                 </Link>
               </Nav.Link>
-              <Nav.Link>
+              {/* <Nav.Link>
                 <Link 
                   activeClass='active'
                   to='testimonial'
@@ -75,7 +75,7 @@ const NavigationBar = () => {
                   onClick={() => setExpanded(false)}
                   >Testimonials
                 </Link>
-              </Nav.Link>
+              </Nav.Link> */}
               <Nav.Link>
                 <Link
                   activeClass='active'

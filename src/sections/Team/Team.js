@@ -51,9 +51,9 @@ const Team = () => {
                         </Row>
                     </Container>
                 </Accordion>
-                <Container>
+                {/* <Container>
                     <hr></hr>
-                </Container>
+                </Container> */}
             </div>
         </div>
     )

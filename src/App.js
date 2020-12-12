@@ -5,7 +5,7 @@ import BootstrapSwitchButton from 'bootstrap-switch-button-react';
 import Navbar from './components/Navbar/index';
 import Header from './sections/Main';
 import About from './sections/About/About';
-import Testimonial from './sections/Testimonial/Testimonial';
+// import Testimonial from './sections/Testimonial/Testimonial';
 import Team from './sections/Team/Team';
 import Contact from './sections/Contact/Contact';
 import Footer from './components/Footer';
@@ -172,7 +172,7 @@ const App = () => {
           </Container>
         </div>
         <Team />
-        <Testimonial />
+        {/* <Testimonial /> */}
         <Contact />
         <Footer />
       </div>
