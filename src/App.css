@@ -26,6 +26,10 @@
   background-color: rgba(0, 0, 0, 0);
 }
 
+#card-image {
+  width: 70%;
+}
+
 .card-title {
   font-family: 'Roboto', sans-serif;
 }
@@ -71,20 +75,16 @@
 
 }
 
-@media only screen and (max-width: 1026px) {
-
-  #card {
-    width: 93%;
-  }
-
-}
-
 @media only screen and (max-width: 991px) {
 
   #card {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #card-image {
+    width: 55%;
   }
 
   .card-text {
@@ -103,8 +103,20 @@
 
 @media only screen and (max-width: 575px) {
 
+  #card-image {
+    width: 45%;
+  }
+
   .card-text {
     font-size: 13px;
+  }
+
+}
+
+@media only screen and (max-width: 375px) {
+
+  #card-image {
+    width: 60%;
   }
 
 }

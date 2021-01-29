@@ -161,6 +161,7 @@ const App = () => {
               <Col lg className='ml-5 mb-3'>
                 <Card id='card'>
                   <Card.Img
+                    id='card-image'
                     alt='AWS'
                     src={darkMode ? image1 : image7}
                     height='150px'
@@ -175,7 +176,8 @@ const App = () => {
               </Col>
               <Col lg className='ml-5 mb-3'>
                 <Card id='card'>
-                  <Card.Img 
+                  <Card.Img
+                    id='card-image' 
                     alt='build'
                     src={darkMode ? image2 : image8}
                     height='150px'
@@ -191,6 +193,7 @@ const App = () => {
               <Col lg className='ml-5 mb-3'>
                 <Card id='card'>
                   <Card.Img
+                    id='card-image'
                     alt='security'
                     src={darkMode ? image3 : image9}
                     height='150px'
@@ -208,6 +211,7 @@ const App = () => {
               <Col lg className='ml-5 mb-3'>
                 <Card id='card'>
                   <Card.Img
+                    id='card-image'
                     alt='strategic'
                     src={darkMode ? image4 : image10}
                     height='150px'
@@ -222,7 +226,8 @@ const App = () => {
               </Col>
               <Col lg className='ml-5 mb-3'>
                 <Card id='card'>
-                  <Card.Img 
+                  <Card.Img
+                    id='card-image' 
                     alt='cost'
                     src={darkMode ? image5 : image11}
                     height='150px'
@@ -237,7 +242,8 @@ const App = () => {
               </Col>
               <Col lg className='ml-5 mb-3'>
                 <Card id='card'>
-                  <Card.Img 
+                  <Card.Img
+                    id='card-image' 
                     alt='devops'
                     src={darkMode ? image6 : image12}
                     height='150px'
