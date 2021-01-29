@@ -1,8 +1,8 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import BootstrapSwitchButton from 'bootstrap-switch-button-react';
-import Navbar from './components/Navbar/index';
+// import Navbar from './components/Navbar/index';
 import Header from './sections/Main';
 import About from './sections/About/About';
 // import Testimonial from './sections/Testimonial/Testimonial';
@@ -24,7 +24,12 @@ import image10 from './img/services/lightmode/DevOps-05.png';
 import image11 from './img/services/lightmode/migrate-05.png';
 import image12 from './img/services/lightmode/build-05.png';
 
+import { Navbar, Nav } from 'react-bootstrap';
+import { Link } from 'react-scroll';
+import Logo from './img/logo/vkbe-finallogo-02.png';
+
 const App = () => {
+  const [expanded, setExpanded] = useState(false);
   const isReturningUser = 'dark' in localStorage;
   const [darkMode, setDarkMode] = React.useState(getInitialMode());
   React.useEffect(() => {
@@ -53,20 +58,100 @@ const App = () => {
   return (
     <React.Fragment>
       <div className={darkMode ? 'dark-mode' : 'light-mode'}>
-        <Navbar  />
+        {/* <Navbar  /> */}
+        <Navbar collapseOnSelect expanded={expanded} fixed='top' variant='dark' expand='lg' id='navigationBar'>
+          <Navbar.Brand as={Link}
+            activeClass='active'
+            to='main'
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration= {500}>
+            <img
+              alt='logo'
+              src={Logo}
+              width='100'
+              height='30'
+              className='navbar-brand ml-5'
+            />
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls='responsive-navbar-nav' onClick={() => setExpanded(expanded ? false : 'expanded')}/>
+          <Navbar.Collapse id='responsive-navbar-nav'>
+            <Nav className='nav ml-auto mr-5'>
+              <Nav.Link>
+                <Link 
+                  activeClass='active'
+                  to='about'
+                  spy={true}
+                  smooth={true}
+                  offset={-145}
+                  duration= {500}
+                  onClick={() => setExpanded(false)}
+                  >About
+                </Link>
+              </Nav.Link>
+              <Nav.Link>
+                <Link 
+                  activeClass='active'
+                  to='services'
+                  spy={true}
+                  smooth={true}
+                  offset={-80}
+                  duration= {500}
+                  onClick={() => setExpanded(false)}
+                  >Services
+                </Link>
+              </Nav.Link>
+              <Nav.Link>
+                <Link 
+                  activeClass='active'
+                  to='team'
+                  spy={true}
+                  smooth={true}
+                  offset={-80}
+                  duration= {500}
+                  onClick={() => setExpanded(false)}
+                  >Team
+                </Link>
+              </Nav.Link>
+              {/* <Nav.Link>
+                <Link 
+                  activeClass='active'
+                  to='testimonial'
+                  spy={true}
+                  smooth={true}
+                  offset={-80}
+                  duration= {500}
+                  onClick={() => setExpanded(false)}
+                  >Testimonials
+                </Link>
+              </Nav.Link> */}
+              <Nav.Link>
+                <Link
+                  activeClass='active'
+                  to='contact'
+                  spy={true}
+                  smooth={true}
+                  offset={-65}
+                  duration= {500}
+                  onClick={() => setExpanded(false)}
+                  >Contact Us
+                </Link>
+              </Nav.Link>
+                <BootstrapSwitchButton 
+                  onChange={() => setDarkMode(prevMode => !prevMode)}
+                  width={50}
+                  size='sm'
+                  checked={true} 
+                  onstyle='dark' 
+                  offstyle='outline-light' 
+                  onlabel='☾'
+                  offlabel='☀'
+                />
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
         <Header />
-        <Container className='text-right'>
-          <BootstrapSwitchButton 
-            onChange={() => setDarkMode(prevMode => !prevMode)}
-            width={50}
-            size='sm'
-            checked={true} 
-            onstyle='dark' 
-            offstyle='outline-light' 
-            onlabel='☾'
-            offlabel='☀'
-          />
-        </Container>
         <About />
         <div id='services'>
           <br></br>
@@ -131,7 +216,7 @@ const App = () => {
                   <Card.Body>
                     <Card.Title className='card-title' style={{fontSize: '23px'}}>DevOps</Card.Title>
                     <p className='line font-weight-bold'>_______</p>
-                    <Card.Text className='card-text'>Give you hands-on help with automating the deployment, testing, and monitoring of your services</Card.Text>
+                    <Card.Text className='card-text'>Give you hands-on help with the build and release process including testing and monitoring of your services</Card.Text>
                   </Card.Body>
                 </Card>
               </Col>
